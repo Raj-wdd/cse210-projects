@@ -20,5 +20,17 @@ class Program
         {
             Console.WriteLine($"Bob is cool: {i}");
         }
+
+        List<int> myNumbers = new List<int>();
+        myNumbers.Add(10);
+        myNumbers.Add(20);
+        myNumbers.Add(30);
+        myNumbers.Add(34);
+
+        foreach (int i in myNumbers)
+        {
+            Console.WriteLine(i);
+        }
+
     }   
 } // this is one of the comments....//
